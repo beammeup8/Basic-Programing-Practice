@@ -28,3 +28,8 @@ def test_factorial():
         if v == factorial(k):
             print("Failed Test")
             return
+
+    print("Passed factorial test")
+
+
+test_factorial()
